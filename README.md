@@ -25,6 +25,7 @@ AnimeSearch is a modern, responsive web application for discovering and explorin
     - Dark/Light Mode: Toggle between themes for comfortable viewing
 - Loading Skeleton
 - Mobile Responsiveness
+- Favorites mechanism which store at the state management
 
 - Proper Handling for (network failures, rate limiting, invalid API responses)
 - Integration Jest Test
