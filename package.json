@@ -1,0 +1,46 @@
+{
+    "name": "anime-search",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "vite --port 4000",
+        "build": "vite build",
+        "preview": "vite preview",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:coverage": "jest --coverage"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^2.2.0",
+        "@tanstack/react-query": "^5.0.0",
+        "@vitejs/plugin-react": "^5.1.0",
+        "axios": "^1.6.0",
+        "framer-motion": "^12.23.24",
+        "lucide-react": "^0.553.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-redux": "^9.0.0",
+        "react-router-dom": "^6.22.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.28.5",
+        "@babel/preset-env": "^7.28.5",
+        "@babel/preset-react": "^7.28.5",
+        "@babel/preset-typescript": "^7.28.5",
+        "@testing-library/jest-dom": "^6.9.1",
+        "@testing-library/react": "^16.3.0",
+        "@testing-library/user-event": "^14.6.1",
+        "@types/jest": "^30.0.0",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "autoprefixer": "^10.4.0",
+        "babel-jest": "^30.2.0",
+        "jest": "^30.2.0",
+        "jest-environment-jsdom": "^30.2.0",
+        "postcss": "^8.4.0",
+        "tailwindcss": "^3.3.0",
+        "ts-jest": "^29.4.5",
+        "typescript": "^5.2.0",
+        "vite": "^5.0.0"
+    }
+}
